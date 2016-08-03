@@ -1,0 +1,5 @@
+<%- include header %>
+<% files.forEach(function (file, index) { %>
+<video src="/images/<%= file.file%>"  type='video/mp4'  controls="controls" width="500px" height="500px">不支持</video>
+<% }) %>
+<%- include footer %>
